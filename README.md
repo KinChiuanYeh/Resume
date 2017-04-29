@@ -4,7 +4,10 @@
 
 <div class="header banxin">
 
-<div class="header-l left">![叶健全](http://i1.piimg.com/591858/c6f4fc5e5d2be61cs.png)
+<div class="header-l left" align="center">
+
+<img src="http://i1.piimg.com/591858/c6f4fc5e5d2be61c.png
+" width = "200" height = "200" alt="图片名称" align=center />
 
 *   叶健全
 *   前端开发工程师
@@ -126,13 +129,19 @@
 
 ## 项目展示 / Experience
 
-<div class="xmL fl">![VUE2.0](http://i1.piimg.com/591858/c1fe0716c91d1f82s.png)
+<div class="xmL fl" align="center">
+
+<img src="http://i1.piimg.com/591858/c1fe0716c91d1f82s.png
+" width = "200" height = "200" alt="图片名称" align=center />
 
 vue2.0
 
 </div>
 
-<div class="xmR fl">![canva](http://i2.muimg.com/591858/4511559005c165f4s.png)
+<div class="xmR fl" align="center">
+
+<img src="http://i2.muimg.com/591858/4511559005c165f4s.png
+" width = "200" height = "200" alt="图片名称" align=center />
 
 canvas
 
