@@ -4,7 +4,7 @@
 
 <div class="header banxin">
 
-<div class="header-l left">![叶健全](img/weixin.png)
+<div class="header-l left">![叶健全](http://i1.piimg.com/591858/c6f4fc5e5d2be61cs.png)
 
 *   叶健全
 *   前端开发工程师
@@ -126,13 +126,13 @@
 
 ## 项目展示 / Experience
 
-<div class="xmL fl">![VUE2.0](img/vue2.png)
+<div class="xmL fl">![VUE2.0](http://i1.piimg.com/591858/c1fe0716c91d1f82s.png)
 
 vue2.0
 
 </div>
 
-<div class="xmR fl">![canva](img/flybird.png)
+<div class="xmR fl">![canva](http://i2.muimg.com/591858/4511559005c165f4s.png)
 
 canvas
 
