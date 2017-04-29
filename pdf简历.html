@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>叶健全-前端-13927484382-2年</title>
+    <style>
+    html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+        margin: 0;
+        padding: 0;
+    }
+
+    fieldset, img, input, button {
+        border: none;
+        padding: 0;
+        margin: 0;
+        outline-style: none;
+    }
+
+    ul, ol {
+        list-style: none;
+    }
+
+    input {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    select, input, textarea {
+        font-size: 12px;
+        margin: 0;
+    }
+    textarea {
+        resize: none;
+    }
+    img {
+        border: 0;
+        vertical-align: middle;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    .clearfix:before, .clearfix:after {
+        content: "";
+        display: table;
+    }
+    .clearfix:after {
+        clear: both;
+    }
+
+    .clearfix {
+        *zoom: 1; /*IE/7/6*/
+    }
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #5c92fa  !important;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 100%;
+    }
+    s, i, em {
+        font-style: normal;
+        text-decoration: none;
+    }
+    .a4{
+        width: 795px;
+        height: 1120px;
+        margin: 0 auto;
+    }
+    .box{
+        width: 695px;
+        /*height: 1040px;*/
+        /*height: 1492px;*/
+        /*height: 1422px;*/
+        height: 1222px;
+        padding: 50px 50px 35px 50px;
+        background-color: #F0F0E1;
+    }
+    .banxin{
+        width: 695px;
+    }
+    .header{
+        height: 245px;
+    }
+    .neck{
+        height: 220px;
+    }
+    .tummy{
+        /*height: 418px;*/
+        /*height: 870px;*/
+        /*height: 800px;*/
+        height: 600px;
+        /*background-color: lightcoral;*/
+    }
+    .footer{
+        height: 157px;
+        /*background-color: lightgreen;*/
+    }
+    .left{
+        float: left;
+        width: 405px;
+    }
+    .right{
+        float: right;
+        width: 245px;
+    }
+    .fl{
+        float: left;
+    }
+    .fr{
+        float: right;
+    }
+    .header-l{
+        height: 245px;
+    }
+    .header-r{
+        height: 245px;
+    }
+    .neck-l{
+        height: 220px;
+    }
+    .neck-r{
+        height: 220px;
+    }
+    .tummy-l{
+        /*height: 870px;*/
+        /*height: 800px;*/
+        height: 600px;
+        /*background-color: lawngreen;*/
+    }
+    .tummy-r{
+        height: 418px;
+    }
+    .footer-l{
+        height: 157px;
+        /*background-color: lightgrey;*/
+    }
+    .footer-r{
+        height: 157px;
+    }
+    .header-l img{
+        border: 5px solid #FFC000;
+        /*width: 140px;
+        height: 140px;*/
+        width: 100px;
+        height: 100px;
+        margin: 30px;
+    }
+    .header-l ul{
+        padding: 30px;
+    }
+    .header-l li{
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    .header-l .yeh{
+        margin: 20px 0 5px 0;
+    }
+    .header-l .qianDuan{
+        font-size: 16px;
+    }
+    .header-r i{
+        margin-top: 30px;
+        margin-left: 2px;
+        display: inline-block;
+        width: 4px;
+        height: 20px;
+        background-color:#FFC000 ;
+    }
+    .header-r h2{
+        margin-top: 30px;
+        margin-left: 8px;
+        font-weight: bold;
+    }
+    .header-r .lianxi b{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #FFC000;
+        margin-right: 5px;
+        margin-left: 9px;
+    }
+    .header-r .lianxi{
+        padding-top: 10px;
+        font-size: 12px;
+        color: #787878;
+    }
+    .neck i{
+        margin-left: 2px;
+        display: inline-block;
+        width: 4px;
+        height: 20px;
+        background-color:#FFC000 ;
+    }
+    .neck-l h2{
+        margin-left: 8px;
+        font-weight: bold;
+    }
+    .neck-l p{
+        padding-top: 10px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #787878;
+    }
+    .neck-r h2{
+        margin-left: 8px;
+        font-weight: bold;
+    }
+    .neck-r ul{
+        padding-top: 10px;
+    }
+    .neck-r ul>li{
+        padding: 5px 0;
+        font-size: 12px;
+        color: #787878;
+    }
+    .tummy-l i{
+        margin-left: 2px;
+        display: inline-block;
+        width: 4px;
+        height: 20px;
+        background-color:#FFC000 ;
+    }
+    .tummy-l h2{
+        margin-left: 8px;
+        font-weight: bold;
+    }
+    .tummy-l p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #787878;
+    }
+    .tummy-l h3,h5{
+        margin-left: 20px;
+    }
+    .tummy-l h5{
+        font-size: 16px !important;
+    }
+    .tummy-r i{
+        margin-left: 2px;
+        display: inline-block;
+        width: 4px;
+        height: 20px;
+        background-color:#FFC000 ;
+    }
+    .tummy-r h2{
+        margin-left: 8px;
+        font-weight: bold;
+    }
+    .tummy-r p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #787878;
+    }
+    .footer-l i{
+        margin-left: 2px;
+        display: inline-block;
+        width: 4px;
+        height: 20px;
+        background-color:#FFC000 ;
+    }
+    .footer-l h2{
+        margin-left: 8px;
+        font-weight: bold;
+    }
+    .footer-l p{
+        margin: 30px;
+        position: relative;
+    }
+    .footer-l .int u{
+        margin: 0 20px 0 5px;
+    }
+    .footer-l .int b{
+        position: absolute;
+        display: inline-block;
+        margin-left: 2px;
+        width: 4px;
+        height: 20px;
+        background-color:#FFC000 ;
+        transform: skewX(30deg);
+        top: 0px;
+    }
+    .footer-r i{
+        margin-left: 2px;
+        display: inline-block;
+        width: 4px;
+        height: 20px;
+        background-color:#FFC000 ;
+    }
+    .footer-r h2{
+        margin-left: 8px;
+        font-weight: bold;
+    }
+    .footer-r img{
+        width: 60px;
+        height: 60px;
+    }
+    .footer-r .xmR,.xmL{
+        margin: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="a4">
+        <div class="box">
+            <div class="header banxin">
+                <div class="header-l left">
+                    <img src="img/weixin.png" class="fl" alt="叶健全">
+                    <ul>
+                        <li class="yeh">叶健全</li>
+                        <li class="qianDuan">前端开发工程师</li>
+                    </ul>
+                </div>
+                <div class="header-r right">
+                    <i class="fl">
+                    </i>
+                    <i class="fl">
+                    </i>
+                    <h2 class="fl">联系方式 / Contact me</h2>
+                    <ul class="fl lianxi">
+                        <li><b></b>手机：13927484382</li>
+                        <li><b></b>email：380519520@qq.com</li>
+                        <li><b></b>叶健全/男/1992</li>
+                        <li><b></b>本科/</li>
+                        <li><b></b>工作年限：2年</li>
+                        <li><b></b>Github: </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/KinChiuanYeh</li>
+                        <li><b></b>期望职位：Web前端程序员</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="neck banxin">
+                <div class="neck-l left">
+                    <i class="fl">
+                    </i>
+                    <i class="fl">
+                    </i>
+                    <h2 class="fl">关于我 / About me</h2><br>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;喜欢创造性活动，慢慢地可能会向全栈发展。
+                    </p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;喜欢折腾，折腾过 Sublime、Atom、webstorm 
+                        和 vscode 等。</br>
+                        本人喜欢钻研代码,自学能力强,对编写优美、并且具有语义化的代码有着浓厚的追求，
+                        通过不断学习，对页面的构造和特效的使用得当有着一定的了解。</br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;有良好的协调沟通能力,表达能力,能够承受较大的工作压力,喜欢钻研新型技术,
+                        敢于面对和克服困难，经常通过GitHub和博客，看别人的文章，
+                        学新技术和对已知技术不同的见解，通过自己的想法去改进折腾更好的优化。
+                    </p>
+                </div>
+                <div class="neck-r right">
+                    <i class="fl">
+                    </i>
+                    <i class="fl">
+                    </i>
+                    <h2 class="fl">技能清单</h2></br>
+                    <ul>
+                        <li>前端基础：HTML &amp; CSS &amp; JavaScript ajax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            json jsonp</li>
+                        <li>前端框架：Bootstroop &amp; Vue / react native</li>
+                        <li>后台语言：Node（基础）</li>
+                        <li>前端库：jQuery</li>
+                        <li>前端工具：SaSS &amp; Webpack</li>
+                        <li>版本管理和自动化部署工具：Git</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tummy banxin">
+                <div class="tummy-l left">
+                    <i class="fl">
+                    </i>
+                    <i class="fl">
+                    </i>
+                    <h2 class="fl">项目经验 / Project</h2><br>
+                    <h3 class="fl">2016.2 — 2016.12  深圳美讯在线有限公司b2c网站</h3>
+                    
+                    <p class="fl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pc网站描述：首页：商品分类页：把商品根据类别展示在栏目中，形成<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目录以及二级菜单</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;商品栏目：把热门商品分类展示成页面，数据通过后台模板引擎拼接</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;商品展示轮播图：把banner图以轮播图的方式来展示</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;责任描述：    使用html、css书写符合规范的pc端的代码</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用javascript和jQuery实现pc端的网页特效</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用ajax来和后台交互，实现提取商品信息的动态获取与加载</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用HTMl5和css3来构建移动端的页面</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;前端技术：   html+css,bootstrap，javascript，ajax，jquery</p>
+                    <h3>2015.10 — 至今 游深圳app（自己工作之余独立写的一个app前端工程项目实现 hybird  App跨平台开发）</h3>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App功能描述：主页数据、景点、地图、美食、酒店、购物、影城</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页脚导航栏包括订单、分类、收藏、我的信息</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地图实现导航的功能</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天气使用百度api获取当地的天气</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用技术：      使用ps构建大概的设计原稿</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用rem和百分比布局</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;精确还原设计图。</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用css3配合js、jquery等完成页面特效；</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用ajax动态获取后台json数据，写解析数据的回调函数；</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;前端兼容性代码调试，分析和解决bug；</br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;前端技术：      bootstrap，html5+css3，javascript，ajax，jquery</p>
+
+                </div>
+                <div class="tummy-r right">
+                    <i class="fl">
+                    </i>
+                    <i class="fl">
+                    </i>
+                    <h2 class="fl">工作经验 / Experience</h2><br>
+                    <h5>2014.10 — 2015.3    深圳市新风荣和文化传播公司网站</h5>
+                    <p>
+                        简介：       服务范围涵盖文化创意、品牌策划、影视制作、形象包装、营销推广等，
+                        充分应用互联网技术及各种移动智能终端服务的一个平台。<br>
+                        责任描述：   用photoshop素材图片和原稿进行处理,适配用于web页面;
+                        使用div+css对页面排版布局,用html5对现有页面重写;
+                        使用js和css预编译对处理网站动态效果;
+                        解决各种形式的兼容性问题,提高页面加载速度;<br>
+                        使用技术：   Photoshop , bootstrap，html5+css3，sass，javascript， jquery
+                        <h5>2015.7 — 2016.2  深圳市梁子实业有限公司--前端工程师</h5>
+                        <p>
+                            工作描述：<br> 
+                            1、网站的开发与维护
+                            2、配合设计师还原设计，同时辅助设计师一起设计网页原稿
+                            3、前端页面js交互效果功能的实现，确保兼容各主流的浏览器
+                            4、在完成前端代码编写之余，辅助设计师制作banner图片 
+                            5、技术文档及注释的编写
+                        </p>
+                        <p>2016.3 — 2016.12  深圳市广田集团美讯在线网络技术有限公司--前端工程师</p>
+                    </p>
+                </div>
+            </div>
+            <div class="footer banxin">
+                <div class="footer-l left">
+                    <i class="fl">
+                    </i>
+                    <i class="fl">
+                    </i>
+                    <h2 class="fl">兴趣爱好 / Interest</h2><br>
+                    <p class="int">
+                        篮球<u><b></b></u>手工<u><b></b></u>电影<u><b></b></u>听音乐<u><b></b></u>绘画<u><b></b></u>摄影
+                    </p>
+                </div>
+                <div class="footer-r right">
+                    <i class="fl">
+                    </i>
+                    <i class="fl">
+                    </i>
+                    <h2 class="fl">项目展示 / Experience</h2><br>
+                    <div class="xmL fl">
+                        <img class="fl" src="img/vue2.png" alt="VUE2.0">
+                        <p>vue2.0</p>
+                    </div>
+                    <div class="xmR fl">
+                        <img src="img/flybird.png" alt="canva">
+                        <p>canvas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
