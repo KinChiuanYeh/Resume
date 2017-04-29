@@ -6,8 +6,10 @@
 
 <div class="header-l left" align="center">
 
-<img src="http://i1.piimg.com/591858/c6f4fc5e5d2be61c.png
-" width = "200" height = "200" alt="图片名称" align=center />
+<!--<img src="http://i1.piimg.com/591858/c6f4fc5e5d2be61c.png
+" width = "200" height = "200" alt="图片名称" align=center />-->
+![](http://i1.piimg.com/591858/c6f4fc5e5d2be61c.png)
+
 
 *   叶健全
 *   前端开发工程师
@@ -131,17 +133,19 @@
 
 <div class="xmL fl" align="center">
 
-<img src="http://i1.piimg.com/591858/c1fe0716c91d1f82s.png
-" width = "200" height = "200" alt="图片名称" align=center />
-
+<!--<img src="http://i1.piimg.com/591858/c1fe0716c91d1f82s.png
+" width = "200" height = "200" alt="vue2.0" align=center />-->
+![](http://i1.piimg.com/591858/c1fe0716c91d1f82s.png)
 vue2.0
 
 </div>
 
 <div class="xmR fl" align="center">
 
-<img src="http://i2.muimg.com/591858/4511559005c165f4s.png
-" width = "200" height = "200" alt="图片名称" align=center />
+<!--<img src="http://i2.muimg.com/591858/4511559005c165f4s.png
+" width = "200" height = "200" alt="canvas" align=center />-->
+![](http://i2.muimg.com/591858/4511559005c165f4s.png)
+
 
 canvas
 
